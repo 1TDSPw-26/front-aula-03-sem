@@ -8,24 +8,27 @@
 
 .cabecalho__li{
     display: inline-block;
-    margin: 0, 1rem;
+    margin: 0.5, 2rem;
 }
 
 .cabecalho__a{
     display: inline-block;
-    background-color: #a9a9a3;
-    padding: 2rem;
+    text-align: center;
+    width: clamp(15rem, 8vw, 20rem);
+    background-color: gray;
+    padding: 1rem;
     border-radius: 10px;
+    border: 0.2rem solid var(--text-main);
 }
 
-.cabecalho__li__a:hover{
-    background-color: #000000;
-    color: #fff;
+.cabecalho__a:hover{
+    background-color: var(--bg-dark);
+    color: var(--text-main);
 }
 
 .cabecalho__a--active{
     background-color: #000000;
-    color: #fff;
+    color: var(--text-main);
 }
 
 .cabecalho__li--active{
