@@ -1,2 +1,2 @@
-# front-aula-03-sem
-@media-queries
+# front-aula-01-sem
+Aula CSS3 - BOX-MODEL
